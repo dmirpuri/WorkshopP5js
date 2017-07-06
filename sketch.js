@@ -44,7 +44,9 @@ function setup(){
     //rect((rectW+10) * i, height/2, rectW, rectH);
 
     //rect(i * (width/15), 0, rectW, rectH);
-    //fill(i*(360/20), 100, 50);/////
+    //fill(i*(360/20), 100, 50);
+
+    //*****
 
   //}
 }
