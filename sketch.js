@@ -79,8 +79,22 @@ function setup(){
 //keyboard
   ellipse(posX, posY, 50, 50);
 
+  if (keyIsDown(LEFT_ARROW)) {
+    posX -= move;
+  }
+  if (keyIsDown(RIGHT_ARROW)) {
+    posX += move;
+  }
+  if (keyIsDown(UP_ARROW)) {
+    posY -= move;
+  }
+  if (keyIsDown(DOWN_ARROW)) {
+    posY += move;
+  }
+
 }
 
+/*
 function keyPressed(){
   if (keyCode == LEFT_ARROW){
     posX -= move;
@@ -96,3 +110,4 @@ function keyPressed(){
   }
 
 }
+*/
